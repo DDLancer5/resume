@@ -67,7 +67,7 @@
   }
 
   Modal.prototype = {
-
+ 
       toggle: function () {
         return this[!this.isShown ? 'show' : 'hide']()
       }
